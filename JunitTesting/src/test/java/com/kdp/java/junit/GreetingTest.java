@@ -39,6 +39,7 @@ public class GreetingTest {
 	@Test
 	public void testGreetForValidOutput() {
 		String result = greeting.greet("Sam");
+		greeting.match();
 		assertNotNull(result);
 		assertEquals("Hello Sam", result);
 		System.out.println("testGreetForValidOutput");
