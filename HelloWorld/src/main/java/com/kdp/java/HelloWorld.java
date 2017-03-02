@@ -12,9 +12,9 @@ public class HelloWorld {
 		
 		String s="AAAAaaaaabbadadadpsdappPPeeasas";
 				String S2="ABCPQR";
-			    String aa=Greeting.class.getSimpleName()      ;
+			    String aa=HelloWorld.class.getSimpleName()      ;
 			    System.out.println("The Class name executing this is:"+aa);
-			    System.out.println("The Class name executing this is:"+Greeting.class.getName());
+			    System.out.println("The Class name executing this is:"+HelloWorld.class.getName());
 				System.out.println("The String 1 : "+s+" \n The String to be replace by blank is : "+S2);
 				
 				String regex="["+S2.toLowerCase()+S2.toUpperCase()+"]";
